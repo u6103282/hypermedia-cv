@@ -56,3 +56,7 @@ Blocks, lines and different background colours are also used to separate the sec
 
 Figma link: https://www.figma.com/design/HWpA9aPWTYsU3foLe8HYnp/Untitled?node-id=18-2&t=Ep6385uEJpfNEc5p-1
 
+## Live Website
+
+[View the website](https://u6103282.github.io/hypermedia-cv/)
+
