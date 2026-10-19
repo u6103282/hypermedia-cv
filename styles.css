@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+    background-color: #cccccc;
+}
+
+a {
+    color: inherit;
+}
+
+h1, h2, h3, p {
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.pagina {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+
+
+/* LEFT COLUMN */
+
+.lateral {
+    width: 32%;
+    padding: 40px;
+    color: white;
+    background-color: #111111;
+}
+
+.foto {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 30px;
+}
+
+.perfil h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.subtitol {
+    color: #bbbbbb;
+}
+
+.petit {
+    color: #999999;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.bloc-lateral {
+    padding-top: 25px;
+    margin-top: 25px;
+    border-top: 1px solid #444444;
+}
+
+.bloc-lateral h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.bloc-lateral strong {
+    color: #888888;
+    font-size: 12px;
+}
+
+.bloc-lateral ul {
+    padding-left: 20px;
+}
+
+.barra {
+    height: 4px;
+    margin-bottom: 15px;
+    background-color: #444444;
+}
+
+.barra span {
+    display: block;
+    height: 4px;
+    background-color: white;
+}
+
+.idioma {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #333333;
+}
+
+
+/* RIGHT COLUMN */
+
+.principal {
+    width: 68%;
+    background-color: #f7f7f7;
+}
+
+.presentacio {
+    padding: 50px;
+    color: white;
+    background-color: #333333;
+}
+
+.text-presentacio {
+    font-size: 18px;
+}
+
+.seccio {
+    padding: 50px;
+}
+
+.seccio h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.gris {
+    background-color: #e7e7e7;
+}
+
+.negre {
+    color: white;
+    background-color: #333333;
+}
+
+
+/* ACADEMIC BACKGROUND */
+
+.fila {
+    display: flex;
+    padding: 25px 0;
+    border-top: 1px solid #cccccc;
+}
+
+.data {
+    width: 25%;
+    color: #777777;
+    font-size: 13px;
+}
+
+.informacio {
+    width: 75%;
+}
+
+.informacio h3 {
+    margin-bottom: 5px;
+}
+
+.lloc {
+    color: #777777;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* COLUMNS */
+
+.dues-columnes {
+    display: flex;
+}
+
+.dues-columnes article {
+    width: 50%;
+}
+
+.tres-columnes {
+    display: flex;
+}
+
+.competencia {
+    width: 300px;
+    padding: 20px;
+    margin: 0 10px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+
+/* CARDS AND PROJECTS */
+
+.targeta,
+.projecte {
+    padding: 25px;
+    background-color: white;
+    border-top: 4px solid #111111;
+}
+
+.data-targeta {
+    color: #777777;
+    font-size: 13px;
+}
+
+.projecte {
+    background-color: #dddddd;
+}
+
+.fosc {
+    color: white;
+    background-color: #333333;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 20px 50px;
+    color: #777777;
+    background-color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* MOBILE VERSION */
+
+@media only screen and (max-width: 700px) {
+
+    .pagina {
+        display: block;
+    }
+
+    .lateral,
+    .principal {
+        width: auto;
+    }
+
+    .dues-columnes,
+    .tres-columnes,
+    .fila {
+        display: block;
+    }
+
+    .dues-columnes article,
+    .competencia,
+    .data,
+    .informacio {
+        width: auto;
+    }
+
+    .dues-columnes article,
+    .competencia {
+        margin-bottom: 20px;
+    }
+
+    .lateral,
+    .presentacio,
+    .seccio {
+        padding: 30px;
+    }
+}
